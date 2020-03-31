@@ -12,12 +12,9 @@ RUN apt-get update && \
 
 WORKDIR /
 
-RUN apt-get install -y unzip
+COPY vroom-feature-pickup-and-delivery vroom
 
-COPY vroom-feature-pickup-and-delivery.zip vroom.zip
-
-RUN vroom.zip && \
-    mkdir vroom/bin && \
+RUN mkdir vroom/bin && \
     cd vroom/src && \
     make && \
     rm -rf /usr/local/lib/libosrm* && \
