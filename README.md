@@ -36,3 +36,6 @@ Builds a docker image of OSRM with India's latest map loaded inside the image. T
 Helps in visualising the output of tsp solver on map built with node express and uses mapbox to plot maps. It plots the output json which contains the step-wise route of all the vehicles.
 
 
+*Yowza, we enrolled on 29th march and got our Azure pass on 31st evening, we could not deploy the front end. If qualified we will demo the front end visualization and solution deployed of azure :D !*
+
+
