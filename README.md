@@ -96,6 +96,27 @@ curl 'http://localhost:3000/' -H 'Content-type: application/json' --data-binary 
 ### Visualization - `front_end` repository
 Helps in visualising the output of tsp solver on map built with node express and uses mapbox to plot maps. It plots the output json which contains the step-wise route of all the vehicles.
 
+Create a dir for building an images
+```
+mkdir front_end
+cd front_end
+```
+
+copy Dockerfile here or create a new file and paste the content in it.
+```
+nano Dockerfile 
+```
+
+Lets make the image
+```
+docker build -t front_end .
+```
+
+Lets run the container
+```
+docker run -p 9966:9966 front_end
+```
+
 
 *Yowza, we enrolled on 29th march and got our Azure pass on 31st evening, we could not deploy the front end. If qualified we will demo the front end visualization and solution deployed of azure :D !*
 
