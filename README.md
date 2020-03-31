@@ -25,4 +25,11 @@ The dataset considered for the **Route Optimization and Visualization for Sales 
 | Pickup Time Taken (45 Mins)  |   |
 | Weight  |   |
 
-### Distance Matrix API - osrm india map
+### Distance Matrix API - `osrm_india_map` repository
+Builds a docker image of OSRM with India's latest map loaded inside the image. Thus, everytime we do not have to download map of india, which is a big file. It acts as a pre-warmed container.
+
+### Travelling Salesman Problem (TSP) Solver - `tsp-solver` repository
+
+
+### Visualization - `frontend` repository
+
