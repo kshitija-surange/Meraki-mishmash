@@ -1,0 +1,41 @@
+version: "3"
+
+services:
+    osrm_india_map:
+        container_name: osrm_india_map
+        image: osrm_india_map
+        restart: always
+        ports:
+            - "5000:5000"
+        networks:
+            tsp_network:
+                aliases:
+                - osrm_india_map
+    tsp_solver:
+        container_name: tsp_solver
+        image: tsp_solver
+        restart: always
+        ports:
+            - "3000:3000"
+        depends_on:
+            - osrm_india_map
+        networks:
+            tsp_network:
+                aliases:
+                - tsp_solver
+    front_end:
+            container_name: front_end
+            image: front_end
+            restart: always
+            ports:
+                - "9966:9966"
+            depends_on:
+                - osrm_india_map
+                - tsp_solver
+            networks:
+                tsp_network:
+                    aliases:
+                    - front_end
+networks:
+  tsp_network:
+      driver: bridge
