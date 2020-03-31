@@ -5,7 +5,7 @@ cliArgs:
   maxlocations: 1000 # max number of jobs/shipments locations
   maxvehicles: 200 # max number of vehicles
   override: true # allow cli option override (-g only so far)
-  path: '~/vroom/bin/vroom' # VROOM path (if not in $PATH)
+  path: '' # VROOM path (if not in $PATH)
   port: 3000 # expressjs port
   router: 'osrm' # routing backend (osrm, libosrm or ors)
   timeout: 300000 # milli-seconds
