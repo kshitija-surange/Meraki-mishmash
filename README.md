@@ -102,11 +102,10 @@ curl 'http://localhost:3000/' -H 'Content-type: application/json' --data-binary 
 ##### Now Stop the docker image, we need the ports to be free for final orchestration.
 
 *****************************************************
-
 ### Visualization - `front_end` repository
-Helps in visualising the output of tsp solver on map built with node express and uses mapbox to plot maps. It plots the output json which contains the step-wise route of all the vehicles.
+Helps in visualising the output of tsp solver on map built with node express and uses mapbox javascript to plot maps. It plots the output json which contains the step-wise route of all the vehicles.
 
-Create a dir for building an images
+Create a dir for building an image
 ```
 mkdir front_end
 cd front_end
@@ -126,8 +125,28 @@ Lets run the container
 ```
 docker run -p 9966:9966 front_end
 ```
+##### Now Stop the docker image, we need the ports to be free for final orchestration.
 *****************************************************
+
+### Container orchestration with Docker-Compose
+#### Note this can be easily performed with **Azure kubernetes Service** or AWS Elastic Contaainer Service
+Come to the main dir of project.
+
+```
+docker-compose up -d
+```
+#### wait for the magic to happen. Once built go to [Localhost](127.0.0.1:9966/) :innocent:
+
+*****************************************************
+## Notes
+
+If there is anything totally unclear, or not working, please feel free to file an issue.
+reach out at to contributors :- 
+
+[Kshitija](kshitija.iitkgp@gmail.com)
+[Utsav](utsav.iitkgp@gmail.com)
+
 
 *Yowza, we enrolled on 29th march and got our Azure pass on 31st evening, we could not deploy the front end. If qualified we will demo the front end visualization and solution deployed of azure :D !*
 
-
+If this project was helpful for you please show some love :star:
