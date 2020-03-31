@@ -1,9 +1,15 @@
-# Meraki-mishmash
+# Meraki-mishmash :100:
 
 ## Implementation Workflow
 ```
 Sample Dataset (jobs.csv + vehicles.csv) -> problem_setter.py -> input_to_engine.json -> TSP_Solver -> Output.json -> upload to front end -> Visualisation
 ```
+
+*****************************************************
+### High Level Architecture Diagram (Final Deployment Proposed)
+
+![Architecture](MISHMASH.png?raw=true "Features")
+
 *****************************************************
 ### Sample Dataset (Self Generated)
 The dataset considered for the **Route Optimization and Visualization for Sales Vehicles** problem statement is as follows:
@@ -26,7 +32,7 @@ The dataset considered for the **Route Optimization and Visualization for Sales 
 | Pickup Time Taken (45 Mins)  |   |
 | Weight  |   |
 
-##### Use problem_setter.py file to conver csv to input.json
+##### Use problem_setter.py file to conver csv to input.json, Azure Functions to be used as TSP Problem Setters.
 
 *****************************************************
 
@@ -147,6 +153,8 @@ reach out at to contributors :-
 [Utsav](utsav.iitkgp@gmail.com)
 
 
-*Yowza, we enrolled on 29th march and got our Azure pass on 31st evening, we could not deploy the front end. If qualified we will demo the front end visualization and solution deployed of azure :D !*
+*Yowza, we got to know about this hackathon on 28th eve, enrolled on 29th march and got our Azure pass on 31st evening, we could not deploy the front end on Azure. If qualified we will demo the front end visualization and solution deployed of azure :D !*
 
 If this project was helpful for you please show some love :star:
+
+##### Docker build, for social distancing! #StayHome
