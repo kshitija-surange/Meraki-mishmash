@@ -149,8 +149,7 @@ docker-compose up -d
 If there is anything totally unclear, or not working, please feel free to file an issue.
 reach out at to contributors :- 
 
-[Kshitija](kshitija.iitkgp@gmail.com)
-[Utsav](utsav.iitkgp@gmail.com)
+[Kshitija](kshitija.iitkgp@gmail.com) | [Utsav](utsav.iitkgp@gmail.com)
 
 
 *Yowza, we got to know about this hackathon on 28th eve, enrolled on 29th march and got our Azure pass on 31st evening, we could not deploy the front end on Azure. If qualified we will demo the front end visualization and solution deployed of azure :D !*
