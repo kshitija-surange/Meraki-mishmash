@@ -150,6 +150,24 @@ docker-compose up -d
 #### wait for the magic to happen. Once built go to [Localhost](127.0.0.1:9966/) :innocent:
 
 *****************************************************
+
+## Services needed to be deployed on Azure:
+
+- [ ] Azure Cosmos DB - Change Feed
+- [ ] Azure Container Instances
+- [ ] Azure Container Registry
+- [ ] Azure kubernetes Service
+- [ ] Azure Sever-less Functions
+- [ ] Azure Machine Learning AutoML
+- [ ] Azure Document DB
+- [ ] Bing Maps - Distance Matrix API
+- [ ] Microsoft Power BI - Front End
+
+Please make sure to update tests as appropriate.
+
+*****************************************************
+## License
+[Apache License 2.0](https://github.com/festivitymishra/PyraDox/blob/master/LICENSE)
 ## Notes
 
 If there is anything totally unclear, or not working, please feel free to file an issue.
@@ -157,9 +175,6 @@ reach out at to contributors :-
 
 [Kshitija](kshitija.iitkgp@gmail.com) | [Utsav](utsav.iitkgp@gmail.com)
 
-
-*Yowza, we got to know about this hackathon on 28th evening, enrolled on 29th march and got our Azure pass on 1st April afternoon, we could not deploy the front end on Azure. If qualified we will demo the front end visualization and solution deployed of azure :D !*
-
 If this project was helpful for you please show some love :star:
 
-##### :whale: Docker build, for social distancing! #StayHome
+##### :whale: Docker build, for social distancing! #StayHome #StaySafe #Covid-19
