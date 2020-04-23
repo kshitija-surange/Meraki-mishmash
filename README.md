@@ -168,7 +168,9 @@ Please make sure to update tests as appropriate.
 *****************************************************
 ## Notes
 
-#### License [Apache License 2.0](https://github.com/festivitymishra/PyraDox/blob/master/LICENSE)
+#### License 
+##### [Apache License 2.0](https://github.com/festivitymishra/PyraDox/blob/master/LICENSE)
+
 If there is anything totally unclear, or not working, please feel free to file an issue.
  Reach out at to contributors :- 
 
