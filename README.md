@@ -1,4 +1,4 @@
-# Meraki :trophy: 1st Runner's Up in Mishmash 2020 Hackathon : :100:
+# :trophy: Meraki 1st Runner's Up in Mishmash 2020 Hackathon :tada:
 
 ## Implementation Workflow
 ```
