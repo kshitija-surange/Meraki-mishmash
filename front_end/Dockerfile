@@ -14,11 +14,7 @@ RUN apt-get update && \
     apt-get autoremove -y && \
     apt-get autoclean
 
-COPY vroom.svg /vroom-frontend/images/vroom.svg
-COPY panel.js /vroom-frontend/src/controls/panel.js
-
 COPY api.js /vroom-frontend/src/config/api.js
-COPY leaflet_setup.js /vroom-frontend/src/config/leaflet_setup.js
 
 WORKDIR /vroom-frontend
 
