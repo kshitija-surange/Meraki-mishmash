@@ -1,5 +1,5 @@
-## :trophy: Meraki - 1st Runner's Up in MishMash 2020 Hack :tada:
-
+## Meraki - 1st Runner's Up in MishMash 2020 Hack :trophy: :tada:
+[![Docker](https://img.shields.io/badge/Docker-Build-Suc)](https://github.com/festivitymishra/Meraki-mishmash)
 ### Ideation
 
 Fast Route Planning & Route Optimisation with the help of travelling salesman problem (TSP) algorithm - Given a set of deliveries to be made in particular time duration, the TSP Algorithm computes the fastest and shortest route for the given fleet of vehicles. If a fleet of vehicles is to deliver consignments till the last mile, the TSP algorithm assigns route to each vehicle so that the total transportation costs are minimized and can also consider business-side logics such as the capacity of each vehicle, time-windows, delivery skills and more. For the shortest and fastest route calculation, the TSP solver (VROOM) relies on OpenStreetMap data and does matrix calculations by triggering Open-Source Routing Machine (OSRM), thus making the route locality-aware.
@@ -169,7 +169,7 @@ Please make sure to update tests as appropriate.
 ## Notes
 
 #### License 
-##### [Apache License 2.0](https://github.com/festivitymishra/PyraDox/blob/master/LICENSE)
+##### [Apache License 2.0](https://github.com/festivitymishra/Meraki-mishmash/blob/master/LICENSE)
 
 If there is anything totally unclear, or not working, please feel free to file an issue.
  Reach out at to contributors :- 
