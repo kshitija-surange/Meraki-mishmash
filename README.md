@@ -1,4 +1,4 @@
-## Meraki - 1st Runner's Up in MishMash 2020 Hack :trophy: :tada:
+## Meraki - 1st Runner's Up in Skillenza MishMash 2020 Hack :trophy: :tada:
 [![Docker](https://img.shields.io/badge/Docker-Build-Suc)](https://github.com/festivitymishra/Meraki-mishmash)
 ### Ideation
 
